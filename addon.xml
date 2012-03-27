@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.lasttube.fm"
+  version="1.0.0"
+  name="LastTube.fm"
+  provider-name="rwparris2,dahool">
+  <requires>
+   <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Youtube.com and Last.FM mashup site by Tim Bormans</summary>
+    <description lang="en">This is a mashup of Last.fm and YouTube made by Tim Bormans. It's best described as an online music television based on your taste. See tv.timbormans.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
